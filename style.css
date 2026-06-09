@@ -59,7 +59,7 @@ display:block;
 }
 .work-card h3{
 font-family:'Cormorant Garamond',serif;
-font-size:2rem;
+font-size:1.4rem;
 font-weight:500;
 }
 .exp{
@@ -67,7 +67,7 @@ margin-bottom:80px;
 }
 .exp h3{
   font-family:'Cormorant Garamond',serif;
-  font-size:2rem;
+  font-size:1.5rem;
   font-weight:500;
   margin-bottom:12px;
 }
