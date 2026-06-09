@@ -159,3 +159,7 @@ a{color:#4A3833;}
     transform:translateY(-3px);
     opacity:.7;
 }
+.divider span{
+    font-family:'Cormorant Garamond', serif;
+    font-size:1.5rem;
+}
