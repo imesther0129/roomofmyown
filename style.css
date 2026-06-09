@@ -62,15 +62,29 @@ font-size:2rem;
 font-weight:500;
 }
 .exp{
-display:grid;
-grid-template-columns:180px 1fr;
-margin-bottom:20px;
+margin-bottom:80px;
 }
+.exp h3{
+  font-family:'Cormorant Garamond',serif;
+  font-size:2rem;
+  font-weight:500;
+  margin-bottom:12px;
+}
+
+.exp p{
+  margin:6px 0;
+  line-height:1.8;
+}
+
+.exp p:last-child{
+  color:#8b6f68;
+}
+
+
 .contact{text-align:center;}
 a{color:#4A3833;}
 @media(max-width:900px){
-.hero-image{width:min(80vw,500px);}
-h1{font-size:4rem;}
-.works-grid{grid-template-columns:1fr;}
-.exp{grid-template-columns:1fr;}
+  .hero-image{width:min(80vw,500px);}
+  h1{font-size:4rem;}
+  .works-grid{grid-template-columns:1fr;}
 }
