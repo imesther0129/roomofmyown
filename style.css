@@ -88,3 +88,74 @@ a{color:#4A3833;}
   h1{font-size:4rem;}
   .works-grid{grid-template-columns:1fr;}
 }
+.contact{
+    text-align:center;
+    max-width:900px;
+    margin:0 auto;
+}
+
+.contact h2{
+    font-family:'Cormorant Garamond', serif;
+    font-size:5rem;
+    font-style:italic;
+    margin-bottom:30px;
+}
+
+.divider{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:20px;
+    margin:40px 0;
+}
+
+.divider::before,
+.divider::after{
+    content:"";
+    width:280px;
+    height:1px;
+    background:#d7bdb6;
+}
+
+.divider span{
+    font-size:1.2rem;
+}
+
+.label{
+    font-size:1rem;
+    letter-spacing:.15em;
+    color:#8f6f68;
+    margin-bottom:10px;
+}
+
+.email{
+    font-size:2rem;
+    margin-bottom:60px;
+}
+
+.portfolio-link{
+    font-size:2.4rem;
+    text-decoration:none;
+    color:#4A3833;
+    border-bottom:1px solid #4A3833;
+    padding-bottom:4px;
+}
+
+.social-icons{
+    margin-top:60px;
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.social-icons a{
+    color:#4A3833;
+    font-size:2rem;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    transform:translateY(-3px);
+    opacity:.7;
+}
