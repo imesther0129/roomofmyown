@@ -5,6 +5,7 @@ background:#F2DFDA;
 color:#4A3833;
 font-family:'Noto Serif TC',serif;
 line-height:1.9;
+font-size:15px;
 }
 nav{
 display:flex;
@@ -36,7 +37,7 @@ font-weight:500;
 font-style:italic;
 }
 h1{font-size:5.5rem;}
-h2{font-size:4rem;}
+h2{font-size:3rem;}
 .intro{
 max-width:760px;
 margin:auto;
