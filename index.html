@@ -3,148 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Esther's portfolio of visual design, editorial content, and illustration.">
 <title>I am Esther</title>
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Noto+Serif+TC:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&amp;family=Noto+Serif+TC:wght@300;400;500&amp;display=swap" rel="stylesheet">
 </head>
 <body>
 
-<nav>
-  <div class="logo">I am Esther ✿</div>
+<nav aria-label="Primary navigation">
+  <a class="logo" href="#">I am Esther <span aria-hidden="true">✿</span></a>
   <div class="menu">
     <a href="#works">Works</a>
-    <a href="#experience">What I Do</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <section class="hero">
-  <img src="images/hero.jpg" alt="Esther Illustration" class="hero-image">
-
-  <h1>I am Esther</h1>
-
-  <div class="intro en">
-    <p>Hello, I'm Esther.</p>
-    <p>I am a Visual Designer, Social Media Content Editor, and Illustrator based in Taiwan.</p>
-    <p>Inspired by books, art, and cultural history, I create visual stories that connect ideas, emotions, and everyday experiences.</p>
+  <div class="hero-visual">
+    <img src="images/es.png" alt="Portrait illustration of Esther" class="hero-image">
   </div>
 
-  <div class="intro zh">
-    <p>嗨，我是 Esther。</p>
-    <p>我是一位來自台灣的視覺設計師、社群內容編輯與插畫創作者。</p>
-    <p>喜歡閱讀、藝術與人文歷史，並持續從中尋找創作靈感。</p>
-    <p>透過設計、內容與插畫，記錄生活中的觀察，將想法與情感轉化為能與人產生共鳴的視覺故事。</p>
+  <div class="hero-copy">
+    <p class="eyebrow">Visual Designer · Editor · Illustrator</p>
+    <h1>I am<br>Esther</h1>
+
+    <div class="intro en">
+      <p>Hello, I'm Esther, a visual designer, social media content editor, and illustrator based in Taiwan.</p>
+      <p>Inspired by books, art, and cultural history, I create visual stories that connect ideas, emotions, and everyday experiences.</p>
+    </div>
+
+    <div class="intro zh" lang="zh-Hant">
+      <p>嗨，我是 Esther。我是一位來自台灣的視覺設計師、社群內容編輯與插畫創作者。</p>
+      <p>我從閱讀、藝術與人文歷史中尋找靈感，透過設計與插畫，將生活裡的觀察轉化為能與人產生共鳴的視覺故事。</p>
+    </div>
   </div>
 </section>
 
 <section id="works" class="section">
-  <h2>Selected Works</h2>
+  <div class="section-heading">
+    <p class="section-number">01</p>
+    <h2>Selected Works</h2>
+    <p>A selection of visual narratives, editorial design, and illustration.</p>
+  </div>
 
- <div class="works-grid">
-
-  <a class="work-card"
-     href="https://www.behance.net/gallery/157537279/Coaster-WOMEN-IN-THE-BIBLE-"
-     target="_blank">
-      <img src="images/1.jpg" alt="Women in the Bible">
-      <h3>Women in the Bible</h3>
-  </a>
-
-  <a class="work-card"
-     href="https://www.behance.net/gallery/157536473/Easycard-"
-     target="_blank">
-      <img src="images/2.jpg" alt="EasyCard">
-      <h3>EasyCard</h3>
-  </a>
-
-  <a class="work-card"
-     href="https://www.behance.net/gallery/231970049/The-FACE-"
-     target="_blank">
-      <img src="images/3.jpg" alt="The FACE">
-      <h3>The FACE</h3>
-  </a>
-
-  <a class="work-card"
-     href="https://www.behance.net/gallery/157530367/Illustration-Book-"
-     target="_blank">
-      <img src="images/4.jpg" alt="Illustration Book">
-      <h3>Illustration Book</h3>
-  </a>
-
-</div>
+  <div class="works-grid">
+    <article class="work-card">
+      <img src="images/rebekah.jpg" alt="Rebekah project">
+      <p class="work-type">Illustration · Editorial</p>
+      <h3>Rebekah</h3>
+    </article>
+    <article class="work-card">
+      <img src="images/phoebe.jpg" alt="Phoebe project">
+      <p class="work-type">Visual Storytelling</p>
+      <h3>Phoebe</h3>
+    </article>
+    <article class="work-card">
+      <img src="images/hannah.jpg" alt="Hannah project">
+      <p class="work-type">Illustration · Narrative</p>
+      <h3>Hannah</h3>
+    </article>
+    <article class="work-card">
+      <img src="images/priscilla-aquila.jpg" alt="Priscilla and Aquila project">
+      <p class="work-type">Editorial · Illustration</p>
+      <h3>Priscilla &amp; Aquila</h3>
+    </article>
+  </div>
+</section>
 
 <section id="experience" class="section">
-  <h2>What I Do</h2>
-
-  <div class="exp">
-    <h3>Visual Design｜視覺設計</h3>
-    <p>Brand Identity · Editorial Design · Print Design</p>
-    <p>品牌識別・編輯設計・平面印刷設計</p>
+  <div class="section-heading">
+    <p class="section-number">02</p>
+    <h2>What I Do</h2>
   </div>
 
-  <div class="exp">
-    <h3>Social Media Content｜社群內容</h3>
-    <p>Content Planning · Graphic Design · Copywriting</p>
-    <p>內容企劃・社群圖文設計・文案撰寫</p>
-  </div>
+  <div class="services-list">
+    <article class="service">
+      <h3>Visual Design <span lang="zh-Hant">｜視覺設計</span></h3>
+      <p class="service-en">Brand Identity · Editorial Design · Print Design</p>
+      <p class="service-zh" lang="zh-Hant">品牌識別・編輯設計・平面印刷設計</p>
+    </article>
 
-  <div class="exp">
-    <h3>Illustration｜插畫創作</h3>
-    <p>Character Design · Book Illustration · Visual Storytelling</p>
-    <p>角色設計・書籍插畫・視覺敘事</p>
-  </div>
+    <article class="service">
+      <h3>Social Media Content <span lang="zh-Hant">｜社群內容</span></h3>
+      <p class="service-en">Content Planning · Graphic Design · Copywriting</p>
+      <p class="service-zh" lang="zh-Hant">內容企劃・社群圖文設計・文案撰寫</p>
+    </article>
 
+    <article class="service">
+      <h3>Illustration <span lang="zh-Hant">｜插畫創作</span></h3>
+      <p class="service-en">Character Design · Book Illustration · Visual Storytelling</p>
+      <p class="service-zh" lang="zh-Hant">角色設計・書籍插畫・視覺敘事</p>
+    </article>
+  </div>
 </section>
 
 <section id="contact" class="section contact">
+  <p class="section-number">03</p>
+  <p class="contact-note">Have a story or an idea in mind?</p>
+  <h2>Let's Connect.</h2>
+  <a class="email-link" href="mailto:imesther0129@gmail.com">imesther0129@gmail.com</a>
 
-  <h2>Let's Connect</h2>
-
-<div class="divider">
-  <span>✿</span>
-</div>
-
-  <div class="contact-info">
-    <p class="label">Email</p>
-    <p class="email">
-      ✉︎ imesther0129@gmail.com
-    </p>
-
-    <p class="label portfolio-label">Portfolio</p>
-
-    <a
-      href="https://www.behance.net/estherhuang1991"
-      target="_blank"
-      class="portfolio-link"
-    >
-      Behance Portfolio →
-    </a>
-
-    <div class="social-icons">
-
-      <a href="https://www.instagram.com/wallflower_1900/" target="_blank">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-
-      <a href="https://www.behance.net/estherhuang1991" target="_blank">
-        <i class="fa-brands fa-behance"></i>
-      </a>
-
-      <a href="https://ko-fi.com/esther25414" target="_blank">
-        ♡
-      </a>
-
-      <a href="https://buymeacoffee.com/zbbafeo72x" target="_blank">
-        ☕
-      </a>
-
-    </div>
-
+  <div class="social-links" aria-label="Social links">
+    <a href="https://www.behance.net/estherhuang1991" target="_blank" rel="noopener noreferrer">Behance</a>
+    <a href="#" aria-label="Instagram profile">Instagram</a>
+    <a href="#" aria-label="Ko-fi page">Ko-fi</a>
+    <a href="#" aria-label="Buy Me a Coffee page">Buy Me a Coffee</a>
   </div>
-<div class="divider">
-  <span>✿</span>
-</div>
-
+  <p class="copyright">© 2026 Esther Huang</p>
 </section>
 
 </body>
