@@ -89,7 +89,8 @@ nav {
 
 .hero-visual {
   position: relative;
-  width: 100%;
+  width: 82%;
+  margin: 0 auto;
 }
 
 .hero-image {
@@ -330,7 +331,7 @@ h2 {
   }
 
   .hero-visual {
-    width: 88%;
+    width: 76%;
   }
 
   .hero-copy {
@@ -388,7 +389,7 @@ h2 {
   }
 
   .hero-visual {
-    width: 92%;
+    width: 82%;
   }
 
   .hero-copy {
